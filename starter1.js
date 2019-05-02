@@ -11,6 +11,7 @@ $('.zone').on("mouseout", function (event){
 
 
 $('.zone').click(function (event){
+    //add inside paranthesis mouseout as an optionl 
     $(event.target).off();
     $(event.target).css("background-color","green");
     $('this').html(counter ++);
